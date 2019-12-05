@@ -1,0 +1,38 @@
+@media (min-width: 576px) {
+
+    body,
+    #container {
+        color: red;
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 768px) {
+
+    body,
+    #container {
+        color: #fff;
+        background-color: #000;
+    }
+}
+
+@media (min-width: 992px) {
+
+    body,
+    #container {
+        color: #000;
+        background-color: #ffe;
+    }
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    flex: 1 1 auto;
+    margin: 20px;
+    text-align: center;
+    list-style-type: none;
+}
