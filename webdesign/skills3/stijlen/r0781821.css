@@ -1,3 +1,7 @@
+body {
+    font-family: Lato, Helvetica, sans-serif;
+}
+
 @media (min-width: 576px) {
 
     body,
@@ -14,6 +18,11 @@
         color: #fff;
         background-color: #000;
     }
+
+    h1,
+    h2 {
+        font-family: Roboto;
+    }
 }
 
 @media (min-width: 992px) {
@@ -23,11 +32,17 @@
         color: #000;
         background-color: #ffe;
     }
+
+    h1,
+    h2 {
+        font-family: Ibarra Real Nova;
+    }
+
 }
 
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 ul li {
